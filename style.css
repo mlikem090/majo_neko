@@ -22,24 +22,6 @@ header > img{
     position: relative;
     left: 550px;
 }
-#circle{
-    animation-name: circleis;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(195,129,50,1) 0%, rgba(255,255,224,1) 100%); 
-    animation-duration: 3s;
-    position: relative;
-    bottom: 100px;
-    text-align: center;
-}
-#arrow{
-    padding-top: 20px;
-}
-@keyframes circleis{
-    25%{background-color: #FFDEAD; top: 0%;}
-    50%{background-color: #DEB887;top: 3%;}
-}
 header>h2{
     display: inline-block;
     position: relative;
@@ -155,13 +137,10 @@ hr{
     border-radius: 30px;
     margin: 5px;
 }
-#circle2{
-    position: sticky;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(195,129,50,1) 0%, rgba(255,255,224,1) 100%); 
-    text-align: center;
+#arrow{
+        width: 70px;
+        position: fixed;
+        margin-left: 850px;
 }
 #hi>a{
     text-decoration: none;
