@@ -1,0 +1,162 @@
+@font-face {
+    font-family:Salamat ;
+    src: url(Salamat.ttf);
+}
+body{
+    font-family: Salamat;
+    background: rgb(195,129,50);
+    background: radial-gradient(circle, rgba(195,129,50,1) 0%, rgba(255,255,224,1) 100%); 
+}
+#godfather{
+    background-color:#fffff075;
+}
+header{
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    width: 95%;
+    margin: auto;
+}
+header > img{
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+}
+header>h2{
+    display: inline-block;
+    position: relative;
+    left: 566px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 27px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 24.3px; } h3 { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: AppleGothic; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18.9px; } pre { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; ;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#wh:hover{
+    color: green;
+}
+#tel:hover{
+    color: blue;
+}
+#ins:hover{
+    color: rgb(237, 74, 74);
+}
+ul{
+    position: relative;
+    left: 400px;
+}
+#hello{
+    border-radius: 30px;
+    width: 90%;
+}
+#bay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(image/Tiny\ Stars\ Navy\ On\ White\ Wallpaper.jpeg);
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+
+    overflow-x: scroll;
+}
+.clothes>img{
+    width: 260px;
+    border-radius: 30px;
+}
+.clothes{
+    background-color: wheat;
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 2px 15px 2px 15px;
+    display: inline-block;
+}
+#bscroll>h1{
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 27px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 24.3px; } h3 { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: AppleGothic; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18.9px; } pre { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px;
+}
+hr{
+    width: 25%;
+    position: relative;
+    right: 37%;
+}
+#dfrn{
+    margin-right: 450px;
+}
+#ascroll>h1{
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 27px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 24.3px; } h3 { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: AppleGothic; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18.9px; } pre { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px;
+}       
+@media screen and (max-width: 412px){
+    #godfather{width: 412px;}
+    header>img{position: relative; left: 60px;}
+    header>h2{position: relative;left: 70px;}
+    header>ul{position: relative; left: 80px;}
+    .clothes>img{width: 100px;}
+    #dfrn{margin-right: 500px;}
+    
+}
+@font-face {
+    font-family:Salamat ;
+    src: url(A-Salamat/);
+}
+#godfather{
+    font-family: Salamat;
+}
+.clothes2>img{
+    width: 200px;
+    border-radius: 30px;
+}
+.clothes2{
+    width: 223px;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+}
+#arrow{
+        width: 70px;
+        position: fixed;
+        margin-left: 850px;
+}
+#hi>a{
+    text-decoration: none;
+    color: #f6dc88;
+    font-size: x-large;
+    margin:5px 5px 3px 5px;
+}
+ul>li{
+    font-size: x-large;
+}
+ul>a{
+    font-size: x-large;
+}
+.clothes>p{
+    font-size: x-large;
+}
+.clothes2>p{
+    font-size: x-large;
+}
